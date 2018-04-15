@@ -9,7 +9,7 @@ import math
 from operator import add
 from pyspark.mllib.clustering import KMeans, KMeansModel
 
-#project_test0.py /user/yl3438/GROUP2/file_name.tsv 
+#project_test0.py /GROUP2/file_name.tsv 
 #[2]Key_Cols e.g.: 0,1
 #[3]KMeans_Cols e.g.: 2,3
 #[4]Cluster_nbr e.g.: 3
