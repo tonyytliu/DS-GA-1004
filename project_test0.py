@@ -31,7 +31,6 @@ def addclustercols(x):
     for i in Key_Cols:
         key.append(x[i])
     center = clusters.centers[0]
-    #mindist = sqrt(sum([y**2 for y in (point - center)]))
     cl = 0
     mindist = 0.0
     
@@ -42,7 +41,6 @@ def addclustercols(x):
     
     for i in range(1,len(clusters.centers)):
         center = clusters.centers[i]
-        #distance = sqrt(sum([y**2 for y in (point - center)]))
         s_1 = 0
         for n in range(len(point)):
             s_1 += (point[n] - center[n])**2
