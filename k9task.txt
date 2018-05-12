@@ -1,0 +1,251 @@
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/yrf7-4wry.tsv 4 5 
+18:49:41 - 18:50:11
+
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/xjcm-e5uy.tsv 4 5 
+18:53:01 - 18:53:22
+
+
+wvxf-dwi5
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/wvxf-dwi5.tsv 6 1
+18:53:47- 19:06:04
+
+
+wng2-85mv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/wng2-85mv.tsv 4 5
+19:11:55 - 19:12:19
+
+
+wibz-uqui
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/wibz-uqui.tsv 4 5
+19:12:35 - 19:12:59
+
+
+vza7-n6vi
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/vza7-n6vi.tsv 4 5
+19:13:09 - 19:13:30
+
+
+ven4-h25u.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/ven4-h25u.tsv 4 5
+19:14:16 - 19:14:37
+
+
+uzcy-9puk.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/uzcy-9puk.tsv 5 2
+19:15:46 - 19:35:28
+
+ugzk-a6x4.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/ugzk-a6x4.tsv 4 5
+19:38:00 - 19:38:24
+
+tbvj-mbps.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/tbvj-mbps.tsv 4 5
+19:39:26 - 19:39:46
+
+
+rbvx-jqnh.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/rbvx-jqnh.tsv 4 5
+19:44:29 - 19:44:58
+
+
+qvir-knu3.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/qvir-knu3.tsv 4 5
+19:45:31 - 19:45:54
+
+
+qpm9-j523.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/qpm9-j523.tsv 4 5
+19:47:04 - 19:47:23
+
+
+qbce-2kcu.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/qbce-2kcu.tsv 4 5
+19:49:35 - 19:50:00
+
+phth-xf25.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/phth-xf25.tsv 4 5
+19:51:39 - 19:52:26
+
+ph7v-u5f3.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/ph7v-u5f3.tsv 4 5
+19:53:06 - 19:53:32 
+
+nre2-6m2s.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/nre2-6m2s.tsv 4 5
+19:54:10 - 19:54:32
+
+kyad-zm4j.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/kyad-zm4j.tsv 4 3
+11:17:58 - 11:25:17
+
+kpav-sd4t.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/kpav-sd4t.tsv 4 3
+22:03:47 - 22:04:12
+
+khqi-x3p3.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/khqi-x3p3.tsv 4 5
+22:04:57 - 22:05:26
+
+jz4z-kudi.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/jz4z-kudi.tsv 6 2
+22:08:40 - 23:32:42
+
+
+jufi-gzgp.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/jufi-gzgp.tsv 4 5
+11:29:19 - 11:29:50
+
+
+jk35-yh5p.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/jk35-yh5p.tsv 4 5
+11:38:18 - 11:39:47
+
+
+ihfw-zy9j.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/ihfw-zy9j.tsv 4 5
+16:16:15 - 16:16:49
+
+
+hg3c-2jsy.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/hg3c-2jsy.tsv 4 5
+16:19:02 - 16:19:34
+
+
+gi8d-wdg5.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/gi8d-wdg5.tsv 6 1
+16:20:39 - 16:39:16
+
+
+dtfq-bfpc.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/dtfq-bfpc.tsv 4 5
+16:40:34 - 16:40:56
+
+
+dg92-zbpx.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/dg92-zbpx.tsv 4 5
+16:41:52 - 16:47:54
+
+
+cyfw-hfqk.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/cyfw-hfqk.tsv 4 5
+16:48:25 - 16:48:55
+
+
+c72z-kzbi.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/c72z-kzbi.tsv 4 5
+16:49:28 - 16:50:10
+
+
+bawj-6bgn.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/bawj-6bgn.tsv 4 5
+16:50:57 - 16:51:23
+
+
+ayeb-p4mv.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/ayeb-p4mv.tsv 4 5
+16:52:24 - 16:52:46
+
+
+ay9k-vznm.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/ay9k-vznm.tsv 4 5
+16:53:13 - 16:53:34
+
+
+799n-b76v.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/799n-b76v.tsv 4 5
+16:54:54 - 16:55:15
+
+
+
+
+
+
+
+735p-zed8.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/735p-zed8.tsv 4 5
+16:10:47 - 16:15:58
+
+
+
+
+
+
+56bx-u7iw.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/56bx-u7iw.tsv 4 5
+17:16:51 - 17:17:25
+
+
+42et-jh9v.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/42et-jh9v.tsv 4 5
+17:18:50 - 17:19:10
+
+
+35cc-g4mc.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/35cc-g4mc.tsv 4 5
+17:20:10 - 17:21:02 
+
+29bw-z7pj.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/29bw-z7pj.tsv 4 5
+19:30:14 - 19:49:07
+
+
+
+8vgb-zm6e.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/8vgb-zm6e.tsv 4 5
+19:49:30 - 19:50:08
+
+
+8isn-pgv3.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/8isn-pgv3.tsv 4 5
+19:50:18 - 19:50:47
+
+
+8fnh-fcum.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/8fnh-fcum.tsv 4 5
+19:50:58 - 19:51:20
+
+7ujc-hpzg.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/7ujc-hpzg.tsv 4 5
+19:51:56 - 19:52:17
+
+
+7kc8-z939.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/7kc8-z939.tsv 4 5
+19:52:43  -  19:53:03
+
+
+
+
+
+7dfh-3irt.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/7dfh-3irt.tsv 6 1
+16:19:39 - 16:43:40
+
+
+
+
+
+6xp4-c9qp.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/6xp4-c9qp.tsv 4 5
+19:56:40 - 19:57:22
+
+
+6rrm-vxj9.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/6rrm-vxj9.tsv 4 5
+19:57:51 - 19:58:14
+
+
+6jad-5sav.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/6jad-5sav.tsv 4 5
+19:58:28 - 19:59:02
+
+
+6bic-qvek.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/6bic-qvek.tsv 4 5
+19:59:26 - 19:59:55
+
+
+5uac-w243.tsv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/5uac-w243.tsv 4 3
+20:00:40 - 20:05:30 
