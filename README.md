@@ -1,10 +1,10 @@
 # DS-GA-1004 Project 
 
-## Topic: Discover Null and Outliers
+### Topic: Discover Null and Outliers
 
-## Team: Triple Y
+### Team: Triple Y
 
-## Members:
+### Members:
 
 Yitao Liu(yl3438) \
 Yulin Shen(ys2542) \
