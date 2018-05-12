@@ -1,4 +1,15 @@
-# DS-GA-1004
+# DS-GA-1004 Project 
+
+## Topic: Discover Null and Outliers
+
+## Team: Triple Y
+
+## Members:
+
+Yitao Liu(yl3438) \
+Yulin Shen(ys2542) \
+Yiyang Sun(ys2380)
+
 
 We use 3 different layers pretrained resnet CNN models with 3 different kinds of RNN(Elman, GRU, LSTM) to get 9 combinations. We compare their results by bleu scores.
 
