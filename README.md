@@ -14,7 +14,7 @@ Yiyang Sun(ys2380)
 
 ## Prerequisites
 
-Spark 2.2.0
+Spark 2.2.0 \
 python 3
 
 ## Folder Description
