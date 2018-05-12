@@ -19,7 +19,7 @@ python 3
 
 ## Folder Description
 
-Model: all python files to do image caption \
+Kmeans Result: all python files to do image caption \
 Evaluation: evaluate the result produced by Model to get bleu scores \
 Score: 9 combinations of models bleu scores outputs \
 Result: predicted captions of 9 combinations of models using val image set \
