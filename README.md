@@ -2,7 +2,7 @@
 
 ## Topic: Discover Null and Outliers
 
-We improve both K-means Clustering and Attribute Value Frequency Algorithms to detect null and outliers in any kinds of large-scale dataset environments. 
+We improve both K-means Clustering and Attribute Value Frequency algorithms to detect null and outliers in any kinds of large-scale dataset environments. 
 
 ### Team: Triple Y
 
@@ -17,71 +17,49 @@ Yiyang Sun(ys2380)
 Spark 2.2.0 \
 python 3.4.4
 
+## Datasets
+
+The data are in dumbo, under /scratch/hm74/teaching/big-data/data/GROUP2
+
+## File Description
+
+RunningTime.xlsx: Time comparison between AVF and Kmeans \
+a3.py: AVF model with column type detection and data clean \
+k9.py: K-means model with column type detection and data clean
+
 ## Folder Description
 
-KMeans Result: 50 outliers results of 50 datasets found by K-means algorithm \
-AVF Result: 50 outliers results of 50 datasets found by AVF algorithm \
-TerminalCommand: 9 combinations of models bleu scores outputs 
+KMeans Result: Outliers results of datasets found by K-means algorithm \
+AVF Result: Outliers results of datasets found by AVF algorithm \
+TerminalCommand: Command instruction for running the codes 
 
-## Getting Started
+## Example
 
-### In Model folder: 
+### K-means:
 
-Step 1: get COCO Dataset at first
+run Kmeans model with parameters number of clusters and outliers percentage \
+Submit job example: for dataset 6bic-qvek.tsv, need 4 clusters, 5% of the rows are outliners
 ```bash
-$ ./data.sh   
+$ spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python k9.py GROUP2/6bic-qvek.tsv 4 5 
 ```
-Step 2: get annation wrapper pickle file
+
+### AVF:
+
+run AVF model with parameter outliers percentage \
+Submit job example: for dataset 6bic-qvek.tsv, 5% of the rows are outliners
 ```bash
-$ python build_vocab.py 
+$ spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python a3.py GROUP2/6bic-qvek.tsv 5  
 ```
-Step 3: resize all images in train image set
+
+### Result:
+
+get and merge the output files in Hadoop\
+Kmeans result files end with ".out"
 ```bash
-$ python resize.py 
+$ hfs -getmerge GROUP2/6bic-qvek.tsv.out 6bic-qvek.tsv.out  
 ```
-Step 4: train the model
+AVF result files end with ".avfout"
 ```bash
-$ python train.py 
+$ hfs -getmerge GROUP2/6bic-qvek.tsv.avfout 6bic-qvek.tsv.avfout  
 ```
-Step 5: get predicted result of val image set
-```bash
-$ python sample.py 
-```
-Notice: change the paths(model setting pickle file, annation pickle file, image sets folder) in each file 
 
-### In Evaluation foler: 
-
-Step 1: get COCOAPI
-```bash
-$ ./COCOAPI.sh 
-```
-Step 2: convert sort_caption.txt into a new annotation json to fit our evaluation format 
-```bash
-$ python create_json_references.py -i ./sort_caption.txt -o ./sort_caption.json 
-```
-Step 3: choose a result txt file in Result folder to get its bleu score
-```bash
-$ python run_evaluations.py -i ../Result/LSTM152_Result.txt -r ./sort_caption.json
-```
-Notice: 
-
-Thanks for [vsubhashin](https://github.com/vsubhashini/caption-eval) sharing us a general evaulation tools. We just need to convert the old annotation json file into a new txt file with image name and its caption.
-
-I have already extracted all necessray information in the val annotation json file to a new txt file called sort_caption.txt, if you need to know how to convert it, please check convert.py in the Evaluation folder for reference.
-
-
-
-
-
-
-input:  
-spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python [project_test#.py] [GROUP2/tsv_file.tsv] [key_cols kmeans_cols] [number_of_clusters] [percentage_of_abnormal_data]
-
-
-for example:  
-spark-submit --conf spark.pyspark.python=/share/apps/python/3.4.4/bin/python project_test0.py GROUP2/6bic-qvek.tsv 45 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44 4 10
-
-for 6bic-qvek.tsv file, set col #45 as key, other cols are data used in K-means clustering, use 4 clusters, and 10% of the total data are abnormal data 
-
-
-.out files for preliminary result are project_test0_0.out.txt, project_test0_1.out.txt, project_test1.out.txt
