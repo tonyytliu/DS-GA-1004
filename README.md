@@ -15,15 +15,13 @@ Yiyang Sun(ys2380)
 ## Prerequisites
 
 Spark 2.2.0 \
-python 3
+python 3.4.4
 
 ## Folder Description
 
-Kmeans Result: all python files to do image caption \
-Evaluation: evaluate the result produced by Model to get bleu scores \
-Score: 9 combinations of models bleu scores outputs \
-Result: predicted captions of 9 combinations of models using val image set \
-Train: loss and perplexity in the train process in 9 combinations of models
+KMeans Result: 50 outliers results of 50 datasets found by K-means algorithm \
+AVF Result: 50 outliers results of 50 datasets found by AVF algorithm \
+TerminalCommand: 9 combinations of models bleu scores outputs 
 
 ## Getting Started
 
