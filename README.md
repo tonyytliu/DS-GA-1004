@@ -1,4 +1,5 @@
 # DS-GA-1004 Project 
+
 ## Topic: Discover Null and Outliers
 
 We improve both K-means Clustering and Attribute Value Frequency Algorithms to detect null and outliers in any kinds of large-scale dataset environments. 
@@ -13,9 +14,8 @@ Yiyang Sun(ys2380)
 
 ## Prerequisites
 
-Python 3.6 for Model \
-Python 2.7 for Evaluation(COCOAPI use version2.7) \
-Pytorch
+Spark 2.2.0
+python 3
 
 ## Folder Description
 
