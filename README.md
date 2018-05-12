@@ -1,6 +1,8 @@
 # DS-GA-1004 Project 
 
-### Topic: Discover Null and Outliers
+## Topic: Discover Null and Outliers
+
+We improve both K-means Clustering and Attribute Value Frequency Algorithms to detect null and outliers in any kinds of large-scale dataset environments. 
 
 ### Team: Triple Y
 
@@ -9,15 +11,6 @@
 Yitao Liu(yl3438) \
 Yulin Shen(ys2542) \
 Yiyang Sun(ys2380)
-
-
-We use 3 different layers pretrained resnet CNN models with 3 different kinds of RNN(Elman, GRU, LSTM) to get 9 combinations. We compare their results by bleu scores.
-
-## Team members:
-
-Yulin Shen(ys2542) \
-Shenghui Zhou(sz2396) \
-Yiyan Chen(yc2462)
 
 ## Prerequisites
 
