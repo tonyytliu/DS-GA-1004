@@ -1,5 +1,4 @@
 # DS-GA-1004 Project 
-
 ## Topic: Discover Null and Outliers
 
 We improve both K-means Clustering and Attribute Value Frequency Algorithms to detect null and outliers in any kinds of large-scale dataset environments. 
