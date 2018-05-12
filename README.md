@@ -35,6 +35,14 @@ TerminalCommand: Command instruction for running the codes
 
 ## Example
 
+### Module Loads:
+```bash
+$ module load python/gnu/3.4.4
+$ module load spark/2.2.0
+$ export PYSPARK_PYTHON='/share/apps/python/3.4.4/bin/python'
+$ export PYSPARK_DRIVER_PYTHON='/share/apps/python/3.4.4/bin/python'
+```
+
 ### K-means:
 
 run Kmeans model with parameters number of clusters and outliers percentage \
